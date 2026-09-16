@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<layer-properties>
+  <properties>
+    <name>Waveguides</name>
+    <source>1/0@1</source>
+    <frame-color>#b14cdb</frame-color>
+    <fill-color>#b14cdb</fill-color>
+    <dither-pattern>I0</dither-pattern>
+    <visible>true</visible>
+    <valid>true</valid>
+    <width>1</width>
+  </properties>
+  <properties>
+    <name>Heaters</name>
+    <source>11/0@1</source>
+    <frame-color>#ef3038</frame-color>
+    <fill-color>#ef3038</fill-color>
+    <dither-pattern>I0</dither-pattern>
+    <visible>true</visible>
+    <valid>true</valid>
+    <width>1</width>
+  </properties>
+  <properties>
+    <name>Metal and pads</name>
+    <source>12/0@1</source>
+    <frame-color>#3b62cb</frame-color>
+    <fill-color>#3b62cb</fill-color>
+    <dither-pattern>I3</dither-pattern>
+    <visible>true</visible>
+    <valid>true</valid>
+    <width>1</width>
+  </properties>
+  <properties>
+    <name>Deep trench</name>
+    <source>201/0@1</source>
+    <frame-color>#b9ab59</frame-color>
+    <fill-color>#b9ab59</fill-color>
+    <dither-pattern>I1</dither-pattern>
+    <visible>true</visible>
+    <valid>true</valid>
+    <width>1</width>
+  </properties>
+  <properties>
+    <name>Chip outline</name>
+    <source>290/0@1</source>
+    <frame-color>#666666</frame-color>
+    <fill-color>#666666</fill-color>
+    <dither-pattern>I1</dither-pattern>
+    <visible>true</visible>
+    <valid>true</valid>
+    <width>1</width>
+  </properties>
+</layer-properties>

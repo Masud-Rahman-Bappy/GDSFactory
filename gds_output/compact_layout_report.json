@@ -1,0 +1,1476 @@
+{
+  "mzi_count": 4,
+  "mzi_settings": {
+    "bend_type": "l",
+    "wg_width": 1.0,
+    "coupler_gap": 0.8,
+    "q": 5.0,
+    "arm_length": 400.0,
+    "coupling_length": 80.0,
+    "arm_bend_type": "s"
+  },
+  "chip_size_um": [
+    8500.0,
+    7400.0
+  ],
+  "mzi_geometry": {
+    "arm_s_bend_length": 336.0549018595945,
+    "arm_s_bend_minimum_radius_um": 54.49242943727967,
+    "upper_arm_straight_length": 399.99999999999994,
+    "lower_arm_straight_length": 399.99999999999994,
+    "arm_straights": [
+      {
+        "arm": "upper",
+        "start_x_um": 415.72700000000003,
+        "end_x_um": 815.727,
+        "start_y_um": 337.527,
+        "end_y_um": 337.527,
+        "length_um": 399.99999999999994
+      },
+      {
+        "arm": "lower",
+        "start_x_um": 415.72700000000003,
+        "end_x_um": 815.727,
+        "start_y_um": -111.909,
+        "end_y_um": -111.909,
+        "length_um": 399.99999999999994
+      }
+    ],
+    "horizontal_outputs": false,
+    "arm_length_difference": 0,
+    "bend_type": "L",
+    "requested_arm_straight_length": 400,
+    "added_l_bends_per_arm": 0,
+    "arm_transition_bend_type": "S_QUINTIC",
+    "arm_s_bends_per_arm": 2,
+    "upper_arm_total_length": 736.0549018595945,
+    "lower_arm_total_length": 736.0549018595945,
+    "coupling_length": 80,
+    "coupler_gap": 0.8,
+    "waveguide_width": 1,
+    "q": 5,
+    "arm_overlay_layer": [
+      11,
+      0
+    ],
+    "arm_overlay_width_um": 7,
+    "arm_overlay_count": 2,
+    "nominal_path_length_parts": {
+      "straight_um": 560,
+      "euler_um": 375.99424119465004,
+      "smooth_s_um": 672.109803719189,
+      "taper_um": 0
+    },
+    "output_coupler_to_interface_length_parts": {
+      "euler_um": 187.99712059732502,
+      "smooth_s_um": 0,
+      "taper_um": 0
+    }
+  },
+  "last_mzi_geometry": {
+    "output_transition_type": "L_PAIR",
+    "output_transition_euler_bend_count": 2,
+    "output_transition_s_length_um": 0,
+    "output_transition_x_span_um": 223.818,
+    "output_transition_y_span_um": 223.818,
+    "output_transition_length_um": 375.99424119465004,
+    "arm_s_bend_length": 336.0549018595945,
+    "arm_s_bend_minimum_radius_um": 54.49242943727967,
+    "upper_arm_straight_length": 399.99999999999994,
+    "lower_arm_straight_length": 399.99999999999994,
+    "arm_straights": [
+      {
+        "arm": "upper",
+        "start_x_um": 415.72700000000003,
+        "end_x_um": 815.727,
+        "start_y_um": 337.527,
+        "end_y_um": 337.527,
+        "length_um": 399.99999999999994
+      },
+      {
+        "arm": "lower",
+        "start_x_um": 415.72700000000003,
+        "end_x_um": 815.727,
+        "start_y_um": -111.909,
+        "end_y_um": -111.909,
+        "length_um": 399.99999999999994
+      }
+    ],
+    "horizontal_outputs": true,
+    "arm_length_difference": 0,
+    "bend_type": "L",
+    "requested_arm_straight_length": 400,
+    "added_l_bends_per_arm": 0,
+    "arm_transition_bend_type": "S_QUINTIC",
+    "arm_s_bends_per_arm": 2,
+    "upper_arm_total_length": 736.0549018595945,
+    "lower_arm_total_length": 736.0549018595945,
+    "coupling_length": 80,
+    "coupler_gap": 0.8,
+    "waveguide_width": 1,
+    "q": 5,
+    "arm_overlay_layer": [
+      11,
+      0
+    ],
+    "arm_overlay_width_um": 7,
+    "arm_overlay_count": 2,
+    "nominal_path_length_parts": {
+      "straight_um": 560,
+      "euler_um": 563.9913617919751,
+      "smooth_s_um": 672.109803719189,
+      "taper_um": 0
+    },
+    "output_coupler_to_interface_length_parts": {
+      "euler_um": 375.99424119465004,
+      "smooth_s_um": 0,
+      "taper_um": 0
+    }
+  },
+  "direct_outputs": [
+    {
+      "name": "reference",
+      "edge_port": "edge_174",
+      "route": "bottom_reference_bus",
+      "edge_taper_input_um": [
+        7968.0,
+        900.0
+      ]
+    },
+    {
+      "name": "o4",
+      "edge_port": "edge_161",
+      "route": "switch_3_lower_output",
+      "mzi_port_um": [
+        7585.361,
+        1800.618
+      ],
+      "edge_taper_input_um": [
+        7968.0,
+        1800.618
+      ]
+    },
+    {
+      "name": "o3",
+      "edge_port": "edge_186",
+      "route": "switch_3_upper_output",
+      "mzi_port_um": [
+        7585.361,
+        2250.054
+      ],
+      "edge_taper_input_um": [
+        7968.0,
+        2250.054
+      ]
+    }
+  ],
+  "selected_horizontal_straights_um": {
+    "short_stage": {
+      "route": "short_stage_lower",
+      "start_um": [
+        3274.817,
+        1500.618
+      ],
+      "end_um": [
+        3974.817,
+        1500.618
+      ],
+      "length_um": 700.0,
+      "label": "H1",
+      "parameter": "SHORT_STAGE_STRAIGHT_LENGTH",
+      "requested_um": 700
+    },
+    "long_stage": {
+      "route": "long_stage_lower",
+      "start_um": [
+        5430.089,
+        1500.618
+      ],
+      "end_um": [
+        6130.089,
+        1500.618
+      ],
+      "length_um": 700.0,
+      "label": "H2",
+      "parameter": "LONG_STAGE_STRAIGHT_LENGTH",
+      "requested_um": 700
+    },
+    "bottom": {
+      "route": "bottom_reference_bus",
+      "start_um": [
+        2043.363,
+        900.0
+      ],
+      "end_um": [
+        7968.0,
+        900.0
+      ],
+      "length_um": 5924.637,
+      "label": "Bottom",
+      "automatic": true,
+      "formula": "right_edge_taper_input_x - splitter_output_x - routing_bend_span",
+      "depends_on_stage_gaps": false
+    }
+  },
+  "selected_vertical_straights_um": {
+    "splitter_bottom": {
+      "route": "bottom_reference_bus",
+      "start_um": [
+        1931.454,
+        1086.909
+      ],
+      "end_um": [
+        1931.454,
+        1011.909
+      ],
+      "length_um": 75.0,
+      "label": "V1",
+      "parameter": "SPLITTER_BOTTOM_STRAIGHT_LENGTH",
+      "requested_um": 75
+    },
+    "splitter_to_sw1": {
+      "route": "splitter_to_switch_1",
+      "start_um": [
+        1931.454,
+        1312.527
+      ],
+      "end_um": [
+        1931.454,
+        1912.527
+      ],
+      "length_um": 600.0,
+      "label": "V2",
+      "parameter": "SPLITTER_TO_SW1_STRAIGHT_LENGTH",
+      "requested_um": 600
+    },
+    "short_upper": {
+      "route": "short_stage_upper",
+      "start_um": [
+        3162.908,
+        2138.145
+      ],
+      "end_um": [
+        3162.908,
+        4638.145
+      ],
+      "length_um": 2500.0,
+      "label": "V3",
+      "parameter": "SHORT_UPPER_VERTICAL_LENGTH",
+      "requested_um": 2500,
+      "opposite_leg": {
+        "route": "short_stage_upper",
+        "start_um": [
+          4086.726,
+          4638.145
+        ],
+        "end_um": [
+          4086.726,
+          2138.145
+        ],
+        "length_um": 2500.0
+      }
+    },
+    "short_lower": {
+      "route": "short_stage_lower",
+      "start_um": [
+        3162.908,
+        1912.527
+      ],
+      "end_um": [
+        3162.908,
+        1612.527
+      ],
+      "length_um": 300.0,
+      "label": "V4",
+      "parameter": "SHORT_LOWER_VERTICAL_LENGTH",
+      "requested_um": 300.0,
+      "opposite_leg": {
+        "route": "short_stage_lower",
+        "start_um": [
+          4086.726,
+          1612.527
+        ],
+        "end_um": [
+          4086.726,
+          1912.527
+        ],
+        "length_um": 300.0
+      }
+    },
+    "long_upper": {
+      "route": "long_stage_upper",
+      "start_um": [
+        5318.18,
+        2138.145
+      ],
+      "end_um": [
+        5318.18,
+        5138.145
+      ],
+      "length_um": 3000.0,
+      "label": "V5",
+      "parameter": "LONG_UPPER_VERTICAL_LENGTH",
+      "requested_um": 3000,
+      "opposite_leg": {
+        "route": "long_stage_upper",
+        "start_um": [
+          6241.9980000000005,
+          5138.145
+        ],
+        "end_um": [
+          6241.9980000000005,
+          2138.145
+        ],
+        "length_um": 3000.0
+      }
+    },
+    "long_lower": {
+      "route": "long_stage_lower",
+      "start_um": [
+        5318.18,
+        1912.527
+      ],
+      "end_um": [
+        5318.18,
+        1612.527
+      ],
+      "length_um": 300.0,
+      "label": "V6",
+      "parameter": "LONG_LOWER_VERTICAL_LENGTH",
+      "requested_um": 300.0,
+      "opposite_leg": {
+        "route": "long_stage_lower",
+        "start_um": [
+          6241.9980000000005,
+          1612.527
+        ],
+        "end_um": [
+          6241.9980000000005,
+          1912.527
+        ],
+        "length_um": 300.0
+      }
+    }
+  },
+  "derived_stage_gaps_um": {
+    "short": 923.818,
+    "long": 923.818,
+    "bend_span": 111.909
+  },
+  "derived_vertical_positions_um": {
+    "splitter_lower_ports_y": 1086.909,
+    "switch_lower_ports_y": 1912.527,
+    "short_loop_top_y": 4750.054,
+    "long_loop_top_y": 5250.054,
+    "short_loop_bottom_y": 1500.618,
+    "long_loop_bottom_y": 1500.618
+  },
+  "construction_grid_um": 0.001,
+  "placements": [
+    {
+      "name": "MZI_1",
+      "role": "splitter",
+      "ports_um": {
+        "o1": [
+          700.0,
+          1086.909
+        ],
+        "o2": [
+          700.0,
+          1312.527
+        ],
+        "o3": [
+          1931.454,
+          1312.527
+        ],
+        "o4": [
+          1931.454,
+          1086.909
+        ]
+      }
+    },
+    {
+      "name": "MZI_2",
+      "role": "switch_1",
+      "ports_um": {
+        "o1": [
+          1931.454,
+          1912.527
+        ],
+        "o2": [
+          1931.454,
+          2138.145
+        ],
+        "o3": [
+          3162.908,
+          2138.145
+        ],
+        "o4": [
+          3162.908,
+          1912.527
+        ]
+      }
+    },
+    {
+      "name": "MZI_3",
+      "role": "switch_2",
+      "ports_um": {
+        "o1": [
+          4086.726,
+          1912.527
+        ],
+        "o2": [
+          4086.726,
+          2138.145
+        ],
+        "o3": [
+          5318.18,
+          2138.145
+        ],
+        "o4": [
+          5318.18,
+          1912.527
+        ]
+      }
+    },
+    {
+      "name": "MZI_4",
+      "role": "switch_3",
+      "ports_um": {
+        "o1": [
+          6241.9980000000005,
+          1912.527
+        ],
+        "o2": [
+          6241.9980000000005,
+          2138.145
+        ],
+        "o3": [
+          7585.361,
+          2250.054
+        ],
+        "o4": [
+          7585.361,
+          1800.618
+        ]
+      }
+    }
+  ],
+  "routing": [
+    {
+      "name": "splitter_to_switch_1",
+      "length_um": 600.0,
+      "bends": 0,
+      "waypoints_um": [
+        [
+          1931.454,
+          1312.527
+        ],
+        [
+          1931.454,
+          1912.527
+        ]
+      ]
+    },
+    {
+      "name": "short_stage_upper",
+      "length_um": 6075.994089181121,
+      "bends": 2,
+      "waypoints_um": [
+        [
+          3162.908,
+          2138.145
+        ],
+        [
+          3162.908,
+          4750.054
+        ],
+        [
+          4086.726,
+          4750.054
+        ],
+        [
+          4086.726,
+          2138.145
+        ]
+      ]
+    },
+    {
+      "name": "short_stage_lower",
+      "length_um": 1675.9940891811211,
+      "bends": 2,
+      "waypoints_um": [
+        [
+          3162.908,
+          1912.527
+        ],
+        [
+          3162.908,
+          1500.618
+        ],
+        [
+          4086.726,
+          1500.618
+        ],
+        [
+          4086.726,
+          1912.527
+        ]
+      ]
+    },
+    {
+      "name": "long_stage_upper",
+      "length_um": 7075.994089181121,
+      "bends": 2,
+      "waypoints_um": [
+        [
+          5318.18,
+          2138.145
+        ],
+        [
+          5318.18,
+          5250.054
+        ],
+        [
+          6241.9980000000005,
+          5250.054
+        ],
+        [
+          6241.9980000000005,
+          2138.145
+        ]
+      ]
+    },
+    {
+      "name": "long_stage_lower",
+      "length_um": 1675.9940891811211,
+      "bends": 2,
+      "waypoints_um": [
+        [
+          5318.18,
+          1912.527
+        ],
+        [
+          5318.18,
+          1500.618
+        ],
+        [
+          6241.9980000000005,
+          1500.618
+        ],
+        [
+          6241.9980000000005,
+          1912.527
+        ]
+      ]
+    },
+    {
+      "name": "edge_117_access",
+      "length_um": 244.08804459056017,
+      "bends": 1,
+      "waypoints_um": [
+        [
+          532.0,
+          1424.436
+        ],
+        [
+          700.0,
+          1424.436
+        ],
+        [
+          700.0,
+          1312.527
+        ]
+      ]
+    },
+    {
+      "name": "edge_119_access",
+      "length_um": 244.0880445905604,
+      "bends": 1,
+      "waypoints_um": [
+        [
+          532.0,
+          975.0
+        ],
+        [
+          700.0,
+          975.0
+        ],
+        [
+          700.0,
+          1086.909
+        ]
+      ]
+    },
+    {
+      "name": "edge_116_access",
+      "length_um": 1475.5420445905604,
+      "bends": 1,
+      "waypoints_um": [
+        [
+          532.0,
+          2250.054
+        ],
+        [
+          1931.454,
+          2250.054
+        ],
+        [
+          1931.454,
+          2138.145
+        ]
+      ]
+    },
+    {
+      "name": "bottom_reference_bus",
+      "length_um": 6187.63404459056,
+      "bends": 1,
+      "waypoints_um": [
+        [
+          1931.454,
+          1086.909
+        ],
+        [
+          1931.454,
+          900.0
+        ],
+        [
+          7968.0,
+          900.0
+        ]
+      ]
+    },
+    {
+      "name": "switch_3_lower_output",
+      "length_um": 382.6390000000001,
+      "bends": 0,
+      "waypoints_um": [
+        [
+          7585.361,
+          1800.618
+        ],
+        [
+          7968.0,
+          1800.618
+        ]
+      ]
+    },
+    {
+      "name": "switch_3_upper_output",
+      "length_um": 382.6390000000001,
+      "bends": 0,
+      "waypoints_um": [
+        [
+          7585.361,
+          2250.054
+        ],
+        [
+          7968.0,
+          2250.054
+        ]
+      ]
+    }
+  ],
+  "stage_lengths_um": {
+    "short_upper": 6075.994089181121,
+    "short_lower": 1675.9940891811211,
+    "short_difference": 4400.0,
+    "long_upper": 7075.994089181121,
+    "long_lower": 1675.9940891811211,
+    "long_difference": 5400.0
+  },
+  "edge_groups": [
+    [
+      "edge_116",
+      "edge_186"
+    ],
+    [
+      "edge_117",
+      "edge_161"
+    ],
+    [
+      "edge_119",
+      "edge_174"
+    ]
+  ],
+  "edge_couplers": 6,
+  "heaters": [
+    {
+      "name": "MZI_1.upper",
+      "length_um": 399.99999999999994,
+      "bounds_um": [
+        1115.727,
+        1420.9360000000001,
+        1515.7269999999999,
+        1427.9360000000001
+      ]
+    },
+    {
+      "name": "MZI_1.lower",
+      "length_um": 399.99999999999994,
+      "bounds_um": [
+        1115.727,
+        971.5000000000001,
+        1515.7269999999999,
+        978.5000000000001
+      ]
+    },
+    {
+      "name": "MZI_2.upper",
+      "length_um": 399.99999999999994,
+      "bounds_um": [
+        2347.181,
+        2246.554,
+        2747.181,
+        2253.554
+      ]
+    },
+    {
+      "name": "MZI_2.lower",
+      "length_um": 399.99999999999994,
+      "bounds_um": [
+        2347.181,
+        1797.118,
+        2747.181,
+        1804.118
+      ]
+    },
+    {
+      "name": "MZI_3.upper",
+      "length_um": 399.99999999999994,
+      "bounds_um": [
+        4502.453,
+        2246.554,
+        4902.453,
+        2253.554
+      ]
+    },
+    {
+      "name": "MZI_3.lower",
+      "length_um": 399.99999999999994,
+      "bounds_um": [
+        4502.453,
+        1797.118,
+        4902.453,
+        1804.118
+      ]
+    },
+    {
+      "name": "MZI_4.upper",
+      "length_um": 399.99999999999994,
+      "bounds_um": [
+        6657.725,
+        2246.554,
+        7057.725,
+        2253.554
+      ]
+    },
+    {
+      "name": "MZI_4.lower",
+      "length_um": 399.99999999999994,
+      "bounds_um": [
+        6657.725,
+        1797.118,
+        7057.725,
+        1804.118
+      ]
+    }
+  ],
+  "pads": [
+    {
+      "name": "TOP_01",
+      "center_x_um": 2074.226,
+      "center_y_um": 6855.0,
+      "side": "top",
+      "size_um": 350.0,
+      "connection": "MZI_1.upper.left"
+    },
+    {
+      "name": "TOP_02",
+      "center_x_um": 2649.226,
+      "center_y_um": 6855.0,
+      "side": "top",
+      "size_um": 350.0,
+      "connection": "MZI_1.upper.right"
+    },
+    {
+      "name": "TOP_03",
+      "center_x_um": 3224.226,
+      "center_y_um": 6855.0,
+      "side": "top",
+      "size_um": 350.0,
+      "connection": "MZI_2.upper.left"
+    },
+    {
+      "name": "TOP_04",
+      "center_x_um": 3799.226,
+      "center_y_um": 6855.0,
+      "side": "top",
+      "size_um": 350.0,
+      "connection": "MZI_2.upper.right"
+    },
+    {
+      "name": "TOP_05",
+      "center_x_um": 4374.226000000001,
+      "center_y_um": 6855.0,
+      "side": "top",
+      "size_um": 350.0,
+      "connection": "MZI_3.upper.left"
+    },
+    {
+      "name": "TOP_06",
+      "center_x_um": 4949.226000000001,
+      "center_y_um": 6855.0,
+      "side": "top",
+      "size_um": 350.0,
+      "connection": "MZI_3.upper.right"
+    },
+    {
+      "name": "TOP_07",
+      "center_x_um": 5524.226000000001,
+      "center_y_um": 6855.0,
+      "side": "top",
+      "size_um": 350.0,
+      "connection": "MZI_4.upper.left"
+    },
+    {
+      "name": "TOP_08",
+      "center_x_um": 6099.226000000001,
+      "center_y_um": 6855.0,
+      "side": "top",
+      "size_um": 350.0,
+      "connection": "MZI_4.upper.right"
+    }
+  ],
+  "removed_reference_loops": [
+    "outer_monitor_pair",
+    "right_monitor_pair",
+    "bottom_left_U",
+    "bottom_right_U"
+  ],
+  "removed_edge_couplers": [
+    "edge_156",
+    "edge_163",
+    "edge_187",
+    "edge_191",
+    "edge_193",
+    "edge_199",
+    "edge_195",
+    "edge_197"
+  ],
+  "removed_electrical_components": [
+    "PAD_RIGHT_01",
+    "PAD_RIGHT_02",
+    "PAD_RIGHT_03",
+    "PAD_RIGHT_04",
+    "PAD_RIGHT_05",
+    "PAD_RIGHT_06",
+    "PAD_RIGHT_07",
+    "PAD_RIGHT_08",
+    "PAD_RIGHT_09",
+    "PAD_RIGHT_10",
+    "TRACE_RIGHT_09",
+    "TRACE_RIGHT_10",
+    "HEATER_WG_172"
+  ],
+  "removed_output_components": [
+    "BOTTOM_COMBINER",
+    "ROUTE_WG_172",
+    "ROUTE_EDGE_161_EXTENSION",
+    "ROUTE_EDGE_174_EXTENSION"
+  ],
+  "bottom_reference_connection": {
+    "type": "direct_to_right_edge_coupler",
+    "join_um": [
+      7968.0,
+      900.0
+    ],
+    "bus_y_um": 900.0
+  },
+  "upper_connection": {
+    "type": "horizontal_straight_between_outer_bends",
+    "start_um": [
+      5430.089,
+      5250.054
+    ],
+    "end_um": [
+      6130.089000000001,
+      5250.054
+    ],
+    "straight_length_um": 700.0000000000002,
+    "width_um": 1.0
+  },
+  "electrical_routes": [
+    {
+      "pad": "TOP_01",
+      "heater": "MZI_1.upper",
+      "terminal": "left",
+      "centerline_um": [
+        [
+          2074.226,
+          6700.0
+        ],
+        [
+          2074.226,
+          6600.0
+        ],
+        [
+          1035.727,
+          6600.0
+        ],
+        [
+          1035.727,
+          1424.4360000000001
+        ],
+        [
+          1075.727,
+          1424.4360000000001
+        ]
+      ],
+      "contact_overlap_um": 5.0
+    },
+    {
+      "pad": "TOP_02",
+      "heater": "MZI_1.upper",
+      "terminal": "right",
+      "centerline_um": [
+        [
+          2649.226,
+          6700.0
+        ],
+        [
+          2649.226,
+          6520.0
+        ],
+        [
+          1595.7269999999999,
+          6520.0
+        ],
+        [
+          1595.7269999999999,
+          1424.4360000000001
+        ],
+        [
+          1555.7269999999999,
+          1424.4360000000001
+        ]
+      ],
+      "contact_overlap_um": 5.0
+    },
+    {
+      "pad": "TOP_03",
+      "heater": "MZI_2.upper",
+      "terminal": "left",
+      "centerline_um": [
+        [
+          3224.226,
+          6700.0
+        ],
+        [
+          3224.226,
+          6440.0
+        ],
+        [
+          2267.181,
+          6440.0
+        ],
+        [
+          2267.181,
+          2250.054
+        ],
+        [
+          2307.181,
+          2250.054
+        ]
+      ],
+      "contact_overlap_um": 5.0
+    },
+    {
+      "pad": "TOP_04",
+      "heater": "MZI_2.upper",
+      "terminal": "right",
+      "centerline_um": [
+        [
+          3799.226,
+          6700.0
+        ],
+        [
+          3799.226,
+          6360.0
+        ],
+        [
+          2827.181,
+          6360.0
+        ],
+        [
+          2827.181,
+          2250.054
+        ],
+        [
+          2787.181,
+          2250.054
+        ]
+      ],
+      "contact_overlap_um": 5.0
+    },
+    {
+      "pad": "TOP_05",
+      "heater": "MZI_3.upper",
+      "terminal": "left",
+      "centerline_um": [
+        [
+          4374.226000000001,
+          6700.0
+        ],
+        [
+          4374.226000000001,
+          6360.0
+        ],
+        [
+          4422.453,
+          6360.0
+        ],
+        [
+          4422.453,
+          2250.054
+        ],
+        [
+          4462.453,
+          2250.054
+        ]
+      ],
+      "contact_overlap_um": 5.0
+    },
+    {
+      "pad": "TOP_06",
+      "heater": "MZI_3.upper",
+      "terminal": "right",
+      "centerline_um": [
+        [
+          4949.226000000001,
+          6700.0
+        ],
+        [
+          4949.226000000001,
+          6440.0
+        ],
+        [
+          4982.453,
+          6440.0
+        ],
+        [
+          4982.453,
+          2250.054
+        ],
+        [
+          4942.453,
+          2250.054
+        ]
+      ],
+      "contact_overlap_um": 5.0
+    },
+    {
+      "pad": "TOP_07",
+      "heater": "MZI_4.upper",
+      "terminal": "left",
+      "centerline_um": [
+        [
+          5524.226000000001,
+          6700.0
+        ],
+        [
+          5524.226000000001,
+          6520.0
+        ],
+        [
+          6577.725,
+          6520.0
+        ],
+        [
+          6577.725,
+          2250.054
+        ],
+        [
+          6617.725,
+          2250.054
+        ]
+      ],
+      "contact_overlap_um": 5.0
+    },
+    {
+      "pad": "TOP_08",
+      "heater": "MZI_4.upper",
+      "terminal": "right",
+      "centerline_um": [
+        [
+          6099.226000000001,
+          6700.0
+        ],
+        [
+          6099.226000000001,
+          6600.0
+        ],
+        [
+          7137.725,
+          6600.0
+        ],
+        [
+          7137.725,
+          2250.054
+        ],
+        [
+          7097.725,
+          2250.054
+        ]
+      ],
+      "contact_overlap_um": 5.0
+    }
+  ],
+  "spare_pads": [],
+  "layers": {
+    "waveguide": [
+      1,
+      0
+    ],
+    "heater": [
+      11,
+      0
+    ],
+    "routing": [
+      12,
+      0
+    ],
+    "trench": [
+      201,
+      0
+    ],
+    "outline": [
+      290,
+      0
+    ]
+  },
+  "checks": {
+    "optical_edge_pairs": true,
+    "optical_polygon_count": 3,
+    "selected_straight_lengths": true,
+    "selected_vertical_straight_lengths": true,
+    "automatic_bottom_straight": true,
+    "electrical_contacts_and_clearance": true,
+    "trench_tip_only": true,
+    "reported_path_length_consistency": true,
+    "gds_layer_readback": true,
+    "right_side_electrical_removed": true,
+    "combiner_and_bottom_output_routes_removed": true,
+    "independent_cell_instances": true,
+    "chip_wrapper_removed": true,
+    "flat_gds_readback": true
+  },
+  "coordinate_note": "Report uses construction coordinates; exported GDS subtracts half chip width and height.",
+  "gds_translation_um": [
+    -4250.0,
+    -3700.0
+  ],
+  "reported_path_lengths": {
+    "basis": "Nominal geometric waveguide centerline length; includes straight and curved sections.",
+    "reference_planes": {
+      "start": "Downstream end of splitter output coupling straight (lower branch for L0; upper for L1-L4).",
+      "end": "Wide input of right-edge taper: edge_174 (reference) for L0; edge_161 (lower SW3 output) for L1-L4. The upper SW3 output edge_186 has equal geometric length to edge_161."
+    },
+    "excluded": "Splitter internal arms/output coupling straight; all edge-coupler tapers and tips. No bottom combiner remains.",
+    "endpoint_revision": "Output reference planes changed after deleting the bottom combiner; totals are not directly comparable with reports ending at its coupling entrance.",
+    "method": "Analytic Euler arclength, quadrature for fitted S bends, and grid-snapped straight dimensions. This is not refractive-index-weighted optical path length or group delay.",
+    "mzi_note": "Each switch contributes one arm and both coupling straights. SW3 output transition: L_PAIR. The two arms have equal length; no transverse distance is assigned to directional-coupler transfer.",
+    "splitter_output_lead_parts_um": {
+      "euler_um": 187.99712059732502,
+      "smooth_s_um": 0,
+      "taper_um": 0
+    },
+    "one_switch_mzi_parts_um": {
+      "straight_um": 560,
+      "euler_um": 375.99424119465004,
+      "smooth_s_um": 672.109803719189,
+      "taper_um": 0
+    },
+    "last_switch_mzi_parts_um": {
+      "straight_um": 560,
+      "euler_um": 563.9913617919751,
+      "smooth_s_um": 672.109803719189,
+      "taper_um": 0
+    },
+    "paths": {
+      "L0": {
+        "description": "Bottom reference path",
+        "short_stage": "bypass",
+        "long_stage": "bypass",
+        "length_um": 6375.631165187885,
+        "length_mm": 6.375631165187885,
+        "components": [
+          {
+            "name": "splitter_lower_output_lead",
+            "kind": "coupler_exit_to_port",
+            "length_um": 187.99712059732502
+          },
+          {
+            "name": "bottom_reference_bus",
+            "kind": "routed_waveguide",
+            "length_um": 6187.63404459056
+          }
+        ],
+        "difference_from_L0_um": 0.0
+      },
+      "L1": {
+        "description": "Lower short-stage / lower long-stage route",
+        "short_stage": "lower",
+        "long_stage": "lower",
+        "length_um": 9534.93355429841,
+        "length_mm": 9.53493355429841,
+        "components": [
+          {
+            "name": "splitter_upper_output_lead",
+            "kind": "coupler_exit_to_port",
+            "length_um": 187.99712059732502
+          },
+          {
+            "name": "splitter_to_switch_1",
+            "kind": "routed_waveguide",
+            "length_um": 600.0
+          },
+          {
+            "name": "SW1_complete_MZI",
+            "kind": "mzi_traversal",
+            "length_um": 1608.104044913839
+          },
+          {
+            "name": "short_stage_lower",
+            "kind": "routed_waveguide",
+            "length_um": 1675.9940891811211
+          },
+          {
+            "name": "SW2_complete_MZI",
+            "kind": "mzi_traversal",
+            "length_um": 1608.104044913839
+          },
+          {
+            "name": "long_stage_lower",
+            "kind": "routed_waveguide",
+            "length_um": 1675.9940891811211
+          },
+          {
+            "name": "SW3_complete_MZI",
+            "kind": "mzi_traversal",
+            "length_um": 1796.1011655111643
+          },
+          {
+            "name": "switch_3_lower_output",
+            "kind": "routed_waveguide",
+            "length_um": 382.6390000000001
+          }
+        ],
+        "difference_from_L0_um": 3159.302389110525
+      },
+      "L2": {
+        "description": "Upper short-stage / lower long-stage route",
+        "short_stage": "upper",
+        "long_stage": "lower",
+        "length_um": 13934.93355429841,
+        "length_mm": 13.93493355429841,
+        "components": [
+          {
+            "name": "splitter_upper_output_lead",
+            "kind": "coupler_exit_to_port",
+            "length_um": 187.99712059732502
+          },
+          {
+            "name": "splitter_to_switch_1",
+            "kind": "routed_waveguide",
+            "length_um": 600.0
+          },
+          {
+            "name": "SW1_complete_MZI",
+            "kind": "mzi_traversal",
+            "length_um": 1608.104044913839
+          },
+          {
+            "name": "short_stage_upper",
+            "kind": "routed_waveguide",
+            "length_um": 6075.994089181121
+          },
+          {
+            "name": "SW2_complete_MZI",
+            "kind": "mzi_traversal",
+            "length_um": 1608.104044913839
+          },
+          {
+            "name": "long_stage_lower",
+            "kind": "routed_waveguide",
+            "length_um": 1675.9940891811211
+          },
+          {
+            "name": "SW3_complete_MZI",
+            "kind": "mzi_traversal",
+            "length_um": 1796.1011655111643
+          },
+          {
+            "name": "switch_3_lower_output",
+            "kind": "routed_waveguide",
+            "length_um": 382.6390000000001
+          }
+        ],
+        "difference_from_L0_um": 7559.302389110525
+      },
+      "L3": {
+        "description": "Lower short-stage / upper long-stage route",
+        "short_stage": "lower",
+        "long_stage": "upper",
+        "length_um": 14934.93355429841,
+        "length_mm": 14.93493355429841,
+        "components": [
+          {
+            "name": "splitter_upper_output_lead",
+            "kind": "coupler_exit_to_port",
+            "length_um": 187.99712059732502
+          },
+          {
+            "name": "splitter_to_switch_1",
+            "kind": "routed_waveguide",
+            "length_um": 600.0
+          },
+          {
+            "name": "SW1_complete_MZI",
+            "kind": "mzi_traversal",
+            "length_um": 1608.104044913839
+          },
+          {
+            "name": "short_stage_lower",
+            "kind": "routed_waveguide",
+            "length_um": 1675.9940891811211
+          },
+          {
+            "name": "SW2_complete_MZI",
+            "kind": "mzi_traversal",
+            "length_um": 1608.104044913839
+          },
+          {
+            "name": "long_stage_upper",
+            "kind": "routed_waveguide",
+            "length_um": 7075.994089181121
+          },
+          {
+            "name": "SW3_complete_MZI",
+            "kind": "mzi_traversal",
+            "length_um": 1796.1011655111643
+          },
+          {
+            "name": "switch_3_lower_output",
+            "kind": "routed_waveguide",
+            "length_um": 382.6390000000001
+          }
+        ],
+        "difference_from_L0_um": 8559.302389110526
+      },
+      "L4": {
+        "description": "Upper short-stage / upper long-stage route",
+        "short_stage": "upper",
+        "long_stage": "upper",
+        "length_um": 19334.933554298408,
+        "length_mm": 19.33493355429841,
+        "components": [
+          {
+            "name": "splitter_upper_output_lead",
+            "kind": "coupler_exit_to_port",
+            "length_um": 187.99712059732502
+          },
+          {
+            "name": "splitter_to_switch_1",
+            "kind": "routed_waveguide",
+            "length_um": 600.0
+          },
+          {
+            "name": "SW1_complete_MZI",
+            "kind": "mzi_traversal",
+            "length_um": 1608.104044913839
+          },
+          {
+            "name": "short_stage_upper",
+            "kind": "routed_waveguide",
+            "length_um": 6075.994089181121
+          },
+          {
+            "name": "SW2_complete_MZI",
+            "kind": "mzi_traversal",
+            "length_um": 1608.104044913839
+          },
+          {
+            "name": "long_stage_upper",
+            "kind": "routed_waveguide",
+            "length_um": 7075.994089181121
+          },
+          {
+            "name": "SW3_complete_MZI",
+            "kind": "mzi_traversal",
+            "length_um": 1796.1011655111643
+          },
+          {
+            "name": "switch_3_lower_output",
+            "kind": "routed_waveguide",
+            "length_um": 382.6390000000001
+          }
+        ],
+        "difference_from_L0_um": 12959.302389110522
+      }
+    }
+  },
+  "hierarchy": {
+    "top": "SiNx_PIC_Compact_4MZIs",
+    "chip": "SiNx_PIC_Compact_4MZIs",
+    "chip_children": [
+      "MZI_1_SPLITTER",
+      "MZI_2_SW1",
+      "MZI_3_SW2",
+      "MZI_4_SW3",
+      "ROUTE_SPLITTER_TO_SWITCH_1",
+      "ROUTE_SHORT_STAGE_UPPER",
+      "ROUTE_SHORT_STAGE_LOWER",
+      "ROUTE_LONG_STAGE_UPPER",
+      "ROUTE_LONG_STAGE_LOWER",
+      "EC_EDGE_117",
+      "ROUTE_EDGE_117_ACCESS",
+      "EC_EDGE_119",
+      "ROUTE_EDGE_119_ACCESS",
+      "EC_EDGE_116",
+      "ROUTE_EDGE_116_ACCESS",
+      "EC_EDGE_174",
+      "ROUTE_BOTTOM_REFERENCE_BUS",
+      "EC_EDGE_161",
+      "ROUTE_SWITCH_3_LOWER_OUTPUT",
+      "EC_EDGE_186",
+      "ROUTE_SWITCH_3_UPPER_OUTPUT",
+      "PAD_TOP_01",
+      "PAD_TOP_02",
+      "PAD_TOP_03",
+      "PAD_TOP_04",
+      "PAD_TOP_05",
+      "PAD_TOP_06",
+      "PAD_TOP_07",
+      "PAD_TOP_08",
+      "TRACE_TOP_01",
+      "TRACE_TOP_02",
+      "TRACE_TOP_03",
+      "TRACE_TOP_04",
+      "TRACE_TOP_05",
+      "TRACE_TOP_06",
+      "TRACE_TOP_07",
+      "TRACE_TOP_08",
+      "DEEP_TRENCH",
+      "CHIP_OUTLINE"
+    ],
+    "cell_count": 174
+  },
+  "gdsfactory_version": "9.49.0",
+  "flat_export": {
+    "file": "SiNx_PIC_FLAT_EDIT.gds",
+    "cell_count": 1,
+    "instance_count": 0,
+    "shape_count": 128
+  }
+}
